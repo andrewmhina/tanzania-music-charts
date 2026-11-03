@@ -18,3 +18,8 @@ header {
     padding: 25px 8%;
     border-bottom: 1px solid #eeeeee;
 }
+
+header h1 {
+    color: #173b67;
+    font-size: 28px;
+}
