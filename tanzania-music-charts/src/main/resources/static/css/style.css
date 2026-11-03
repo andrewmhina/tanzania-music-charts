@@ -57,3 +57,15 @@ main h2 {
     color: #173b67;
     margin-bottom: 20px;
 }
+
+/* Category buttons */
+main button {
+    background-color: #ffffff;
+    color: #173b67;
+    border: 1px solid #173b67;
+    padding: 9px 22px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
