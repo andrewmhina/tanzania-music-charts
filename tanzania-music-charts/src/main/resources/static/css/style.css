@@ -83,3 +83,10 @@ footer {
     padding: 20px;
     border-top: 1px solid #eeeeee;
 }
+
+/* Chart Categories */
+.chart-categories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
