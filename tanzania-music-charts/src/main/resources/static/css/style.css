@@ -224,3 +224,8 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.update-label {
+    color: #777777;
+    font-size: 12px;
+}
