@@ -169,3 +169,16 @@ footer {
     font-weight: bold;
     color: #222222;
 }
+
+/* NEW Video Indicator */
+.new-badge {
+    display: inline-block;
+    background-color: #e53935;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
