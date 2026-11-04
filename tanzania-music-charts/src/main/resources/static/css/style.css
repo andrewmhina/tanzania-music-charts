@@ -235,3 +235,9 @@ footer {
     font-weight: bold;
     font-size: 14px;
 }
+
+.update-frequency {
+    color: #16a34a;
+    font-size: 13px;
+    font-weight: bold;
+}
