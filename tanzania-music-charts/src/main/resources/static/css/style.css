@@ -198,3 +198,10 @@ footer {
     color: #777777;
     font-weight: bold;
 }
+
+/* Time at Rank */
+.chart-table td:nth-child(3) {
+    color: #555555;
+    font-size: 13px;
+    white-space: nowrap;
+}
