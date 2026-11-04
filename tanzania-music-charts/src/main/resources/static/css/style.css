@@ -121,3 +121,7 @@ footer {
     border-collapse: collapse;
     text-align: left;
 }
+
+.chart-table thead {
+    background-color: #f1f4f8;
+}
