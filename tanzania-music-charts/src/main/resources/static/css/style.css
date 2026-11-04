@@ -219,3 +219,8 @@ footer {
     padding: 15px 20px;
     margin-bottom: 25px;
 }
+
+.last-updated {
+    display: flex;
+    flex-direction: column;
+}
