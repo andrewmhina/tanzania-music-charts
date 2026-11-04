@@ -90,3 +90,13 @@ footer {
     gap: 10px;
     margin-bottom: 25px;
 }
+
+.chart-categories button {
+    background-color: #f1f4f8;
+    color: #173b67;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
