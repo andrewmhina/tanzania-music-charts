@@ -157,3 +157,10 @@ footer {
     gap: 15px;
     min-width: 300px;
 }
+
+.video-info img {
+    width: 120px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 5px;
+}
