@@ -164,3 +164,8 @@ footer {
     object-fit: cover;
     border-radius: 5px;
 }
+
+.video-info span {
+    font-weight: bold;
+    color: #222222;
+}
