@@ -114,3 +114,10 @@ footer {
     border: 1px solid #e5e7eb;
     border-radius: 8px;
 }
+
+/* Chart Table */
+.chart-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
