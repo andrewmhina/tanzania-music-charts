@@ -138,3 +138,7 @@ footer {
     border-top: 1px solid #eeeeee;
     font-size: 14px;
 }
+
+.chart-table tbody tr:hover {
+    background-color: #f8fafc;
+}
