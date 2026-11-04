@@ -142,3 +142,10 @@ footer {
 .chart-table tbody tr:hover {
     background-color: #f8fafc;
 }
+
+/* Rank Column */
+.chart-table td:first-child {
+    font-weight: bold;
+    color: #173b67;
+    width: 70px;
+}
