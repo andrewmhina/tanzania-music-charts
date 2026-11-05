@@ -263,3 +263,12 @@ footer {
     max-width: 500px;
     margin-bottom: 25px;
 }
+
+.chart-search input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
