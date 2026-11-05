@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (matchesSearch && matchesCategory) {
                 row.style.display = "";
+                visibleVideos++;
             } else {
                 row.style.display = "none";
             }
