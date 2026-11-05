@@ -287,3 +287,7 @@ footer {
     font-weight: bold;
     cursor: pointer;
 }
+
+.chart-search button:hover {
+    background-color: #24558b;
+}
