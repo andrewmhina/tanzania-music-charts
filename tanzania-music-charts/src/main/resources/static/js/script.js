@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
         });
+        const noResults = document.getElementById("noResults");
+
+        noResults.style.display = visibleVideos === 0 ? "block" : "none";
     }
 
     // Search functionality
