@@ -1,3 +1,11 @@
 D:\GMC\GMT PROJECT\tanzania-music-charts>mvnw.cmd spring-boot:run
 Tomcat started on port 8080
 Started TanzaniaMusicChartsApplication
+
+Click All to Displays all three videos
+Click Secular to Displays all three videos
+Click Gospel to Displays no videos
+Search Luis Fonsi under All to Displays Despacito
+Search Alan Walker under Secular to Displays Faded
+The Gospel category will be empty because our three demonstration videos are currently 
+classified as Secular.
