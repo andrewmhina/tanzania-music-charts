@@ -255,3 +255,11 @@ footer {
     color: #555555;
     font-size: 13px;
 }
+
+/* Chart Search Bar */
+.chart-search {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
