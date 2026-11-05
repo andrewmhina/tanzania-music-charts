@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let selectedCategory = "all";
 
     function filterVideos() {
+        let visibleVideos = 0;
 
         const searchValue = searchInput.value.toLowerCase().trim();
 
