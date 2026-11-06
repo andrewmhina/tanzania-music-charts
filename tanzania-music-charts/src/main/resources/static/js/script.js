@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    // Automatically update copyright year
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+
     const searchInput = document.getElementById("searchInput");
     const searchButton = document.getElementById("searchButton");
 
