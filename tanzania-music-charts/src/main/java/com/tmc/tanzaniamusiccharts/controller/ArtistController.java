@@ -9,5 +9,9 @@ import java.util.List;
 @RestController 
 @RequestMapping("/api/artists")
 public class ArtistController {
-    
+    private final ArtistService artistService;
+
+    public ArtistController(ArtistService artistService) {
+        this.artistService = artistService;
+    }
 }
