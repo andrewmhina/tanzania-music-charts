@@ -1,5 +1,5 @@
 package com.tmc.tanzaniamusiccharts.repository;
 
-public class ArtistRepository {
+public interface ArtistRepository extends JpaRepository<Artist, Long> {
     
 }
