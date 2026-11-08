@@ -9,3 +9,7 @@ Search Luis Fonsi under All to Displays Despacito
 Search Alan Walker under Secular to Displays Faded
 The Gospel category will be empty because our three demonstration videos are currently 
 classified as Secular.
+
+D:\GMC\GMT PROJECT\tanzania-music-charts>set YOUTUBE_API_KEY=AIzaSyAUhdDTRs4AEklkLWjjyIeAmE3G8qLGDiA
+
+D:\GMC\GMT PROJECT\tanzania-music-charts>mvnw.cmd spring-boot:run
