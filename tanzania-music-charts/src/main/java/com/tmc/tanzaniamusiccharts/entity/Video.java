@@ -21,4 +21,12 @@ public class Video {
 
     @Column(name = "thumbnail_url")
     private String thumbnailUrl;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(
+        name = "channel_id",
+        referencedColumnName = "channel_id",
+        nullable = false
+    )
+    private Artist artist;
 }
