@@ -26,4 +26,50 @@ public class ChannelStatistics {
 
     @Column(name = "collected_at", nullable = false)
     private LocalDateTime collectedAt;
+
+    // Default constructor
+    public ChannelStatistics() {
+
+    }
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Artist getArtist() {
+        return artist;
+    }
+
+    public void setArtist(Artist artist) {
+        this.artist = artist;
+    }
+
+    public Long getSubscriberCount() {
+        return subscriberCount;
+    }
+
+    public void setSubscriberCount(Long subscriberCount) {
+        this.subscriberCount = subscriberCount;
+    }
+
+    public Long getViewCount() {
+        return viewCount;
+    }
+
+    public void setViewCount(Long viewCount) {
+        this.viewCount = viewCount;
+    }
+
+    public LocalDateTime getCollectedAt() {
+        return collectedAt;
+    }
+
+    public void setCollectedAt(LocalDateTime collectedAt) {
+        this.collectedAt = collectedAt;
+    }
 }
