@@ -36,4 +36,20 @@ public class VideoCategoryId implements Serializable {
     public void setCategoryId(Long categoryId) {
         this.categoryId = categoryId;
     }
+
+    @Override 
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (!(object instanceof VideoCategoryId)) return false;
+
+        VideoCategoryId that = (VideoCategoryId) object;
+
+        return Objects.equals(videoId, that.videoId) 
+        && Objects.equals(categoryId, that.categoryId);
+    }
+
+    @Override 
+    public int hashCode() {
+        return Objects.hash(videoId, categoryId);
+    }
 }
