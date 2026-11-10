@@ -9,5 +9,18 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ArtistFeature {
-    
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @ManyToOne 
+    @JoinColumn(name = "artist_id", nullable = false)
+    private Artist artist;
+
+    @ManyToOne 
+    @JoinColumn(name = "video_id", nullable = false)
+    private Video video;
+
+    @Column(name = "relationship_type")
+    private String relationshipType;
 }
