@@ -9,5 +9,7 @@ import lombok.Setter;
 @Getter 
 @Setter
 public class ChartEntry {
-    
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 }
