@@ -12,4 +12,15 @@ public class ChartEntry {
     @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @ManyToOne 
+    @JoinColumn(name = "chart_snapshot_id", nullable = false)
+    private ChartSnapshot chartSnapshot;
+
+    @ManyToOne 
+    @JoinColumn(name = "video_id", nullable = false)
+    private Video video;
+
+    @Column(nullable = false)
+    private Integer rank;
 }
