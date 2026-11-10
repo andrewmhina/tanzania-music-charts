@@ -6,6 +6,6 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Embeddable
-public class VideoCategoryId {
+public class VideoCategoryId implements Serializable {
     
 }
