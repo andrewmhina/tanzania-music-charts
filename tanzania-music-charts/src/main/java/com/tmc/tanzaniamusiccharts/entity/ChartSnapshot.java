@@ -10,5 +10,19 @@ import java.time.LocalDateTime;
 @Getter 
 @Setter
 public class ChartSnapshot {
-    
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "chart_type")
+    private String chartType;
+
+    @ManyToOne 
+    @JoinColumn(name = "category_id")
+    private Category category;
+
+    private String period;
+
+    @Column(name = "snapshot_at")
+    private LocalDateTime snapshotAt;
 }
