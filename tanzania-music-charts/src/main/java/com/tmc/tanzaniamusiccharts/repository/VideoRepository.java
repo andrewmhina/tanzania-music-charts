@@ -4,6 +4,6 @@ import com.tmc.tanzaniamusiccharts.entity.Video;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
-public class VideoRepository {
+public interface VideoRepository {
     
 }
