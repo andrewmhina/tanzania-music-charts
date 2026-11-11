@@ -26,6 +26,17 @@ public class ArtistService {
         return artistRepository.save(artist);
     }
 
+    public Optional<Artist> updateArtist(Long id, Artist updatedArtist) {
+        return artistRepository.findById(id)
+        .map(existingArtist -> {
+            existingArtist.setChannelId(updatedArtist.getChannelId());
+            existingArtist.setChannelName(updatedArtist.getChannelName());
+            existingArtist.setThumbnailUrl(updatedArtist.getThumbnailUrl());
+
+            return artistRepository.save(existingArtist);
+        });
+    }
+
     public void deleteArtist(Long id) {
         artistRepository.deleteById(id);
     }
