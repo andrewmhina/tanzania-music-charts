@@ -4,6 +4,6 @@ import com.tmc.tanzaniamusiccharts.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
-public class CategoryRepository {
+public interface CategoryRepository {
     
 }
