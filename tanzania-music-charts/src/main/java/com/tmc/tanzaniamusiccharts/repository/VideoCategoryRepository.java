@@ -4,6 +4,6 @@ import comt.tmc.tanzaniamusiccharts.entity.VideoCategory;
 import com.tmc.tanzaniamusiccharts.entity.VideoCategoryId;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface VideoCategoryRepository {
+public interface VideoCategoryRepository extends JpaRepository<VideoCategory, VideoCategoryId> {
     
 }
